@@ -229,12 +229,13 @@ int main()
     cout<<"cate numere?\n";cin>>Nr;
     cout<<"care sa fie valmax?\n";cin>>ValMax;
     generare(Nr,ValMax);
-    printare(v);
+    ///printare(v);
     auto start = high_resolution_clock::now();
     Bubblesort(v);
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop - start);
     cout <<"timpul sortarii este :"<< duration.count() << " microsecunde"<<endl;
-    printare(v);
+    testare(v);
+    ///printare(v);
     return 0;
 }
