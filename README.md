@@ -1,2 +1,3 @@
-# Sortari
- Tema1 structuri de date
+# Sorting Algorithm
+ 
+ The sorting algorithms used are: Bubble sort, Quick sort, Radix sort, Merge sort and Count sort
